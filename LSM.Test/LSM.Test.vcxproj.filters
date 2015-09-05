@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="LSM">
+      <UniqueIdentifier>{6a43fcbd-968a-4b48-b354-d84c1099f510}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lsm.h">
+      <Filter>LSM</Filter>
+    </ClInclude>
+    <ClInclude Include="lsmInt.h">
+      <Filter>LSM</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LSM.Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lsm_ckpt.c">
+      <Filter>LSM</Filter>
+    </ClCompile>
+    <ClCompile Include="lsm_file.c">
+      <Filter>LSM</Filter>
+    </ClCompile>
+    <ClCompile Include="lsm_log.c">
+      <Filter>LSM</Filter>
+    </ClCompile>
+    <ClCompile Include="lsm_main.c">
+      <Filter>LSM</Filter>
+    </ClCompile>
+    <ClCompile Include="lsm_mem.c">
+      <Filter>LSM</Filter>
+    </ClCompile>
+    <ClCompile Include="lsm_mutex.c">
+      <Filter>LSM</Filter>
+    </ClCompile>
+    <ClCompile Include="lsm_shared.c">
+      <Filter>LSM</Filter>
+    </ClCompile>
+    <ClCompile Include="lsm_sorted.c">
+      <Filter>LSM</Filter>
+    </ClCompile>
+    <ClCompile Include="lsm_str.c">
+      <Filter>LSM</Filter>
+    </ClCompile>
+    <ClCompile Include="lsm_tree.c">
+      <Filter>LSM</Filter>
+    </ClCompile>
+    <ClCompile Include="lsm_varint.c">
+      <Filter>LSM</Filter>
+    </ClCompile>
+    <ClCompile Include="lsm_windows.c">
+      <Filter>LSM</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
